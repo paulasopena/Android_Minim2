@@ -1,6 +1,6 @@
 
 FQ ANDROID DSA
-
+In order to access to the features in the dashboard is YOU NEED TO click on the little icon in the dashboard.
 - Chat
 - Ranking with profile pictures
 - Abuse report (the one asked for in the exam)
