@@ -7,3 +7,4 @@ In order to access to the features in the dashboard is YOU NEED TO click on the 
 - Password change
 
 Features added individually for studying for the FQ.
+The database file is in the backend.
