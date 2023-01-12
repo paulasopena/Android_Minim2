@@ -33,6 +33,7 @@ public class ChatActivity extends AppCompatActivity {
     String name;
     TableLayout tableChat;
     TextInputEditText newMessage;
+    Integer numberRows;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,12 +116,11 @@ public class ChatActivity extends AppCompatActivity {
 
             TextView gamer = tableRow.findViewById(R.id.gamerName);
             TextView gamerMessage = tableRow.findViewById(R.id.gamerMessage);
-
             gamer.setText(message.getName());
             gamerMessage.setText(message.getMessage());
-
             this.tableChat.addView(tableRow);
         }
     }
 
 }
+

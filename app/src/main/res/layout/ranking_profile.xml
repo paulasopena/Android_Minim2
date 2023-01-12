@@ -65,7 +65,7 @@
             android:id="@+id/FirstWinnerProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="160dp"
+            android:layout_marginLeft="165dp"
             android:background="@drawable/img_circle"
             app:layout_constraintTop_toBottomOf="@+id/textTop1"
             android:contentDescription="First position!">
@@ -120,7 +120,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/img_circle"
-            android:layout_marginLeft="160dp"
+            android:layout_marginLeft="165dp"
             app:layout_constraintTop_toBottomOf="@+id/textTop2"
             android:contentDescription="Second position!">
         </ImageView>
@@ -173,7 +173,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/img_circle"
             app:layout_constraintTop_toBottomOf="@+id/textTop3"
-            android:layout_marginLeft="160dp"
+            android:layout_marginLeft="165dp"
             android:contentDescription="Third position!">
         </ImageView>
     </LinearLayout>

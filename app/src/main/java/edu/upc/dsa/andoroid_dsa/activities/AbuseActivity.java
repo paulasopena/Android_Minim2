@@ -56,6 +56,7 @@ public class AbuseActivity extends AppCompatActivity {
                     case 201:
                         Snackbar snaky201 = Snackbar.make(view, "The report of the abuse has been done correctly!", 3000);
                         snaky201.show();
+                        setLabel();
                         break;
                     case 403:
                         Snackbar snaky403 = Snackbar.make(view, "Database error when reporting issue", 3000);
@@ -83,6 +84,10 @@ public class AbuseActivity extends AppCompatActivity {
         SimpleDateFormat sdf;
         sdf = new SimpleDateFormat(dateFormat);
         return sdf.format(date);
+    }
+    public void setLabel(){
+        this.informerInput.setText("");
+        this.descriptionAbuse.setText("");
     }
     /*
     public static String obtenerFechaActual(String zonaHoraria) {
