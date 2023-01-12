@@ -40,7 +40,7 @@ public class RegisterActivity extends AppCompatActivity {
         birthdayTxt = findViewById(R.id.birthdayTxt);
         emailTxt = findViewById(R.id.emailTxt);
         passwordRegisterTxt = findViewById(R.id.passwordRegisterTxt);
-        String defaultProfilePicture="https://www.informador.mx/__export/1591209620028/sites/elinformador/img/2020/06/03/whatsapp_image_2020-06-03_at_1_22_36_pm_x1x_crop1591209586178.jpg_423682103.jpg";
+        String defaultProfilePicture="https://i.pinimg.com/236x/e9/57/2a/e9572a70726980ed5445c02e1058760b.jpg";
         User user = new User(nameTxt.getText().toString(), surnameTxt.getText().toString(), birthdayTxt.getText().toString(), emailTxt.getText().toString(), passwordRegisterTxt.getText().toString(),50, 1, defaultProfilePicture);
 
         APIservice = RetrofitClient.getInstance().getMyApi();

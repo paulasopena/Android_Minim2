@@ -121,6 +121,6 @@ public class ChatActivity extends AppCompatActivity {
 
             this.tableChat.addView(tableRow);
         }
-
     }
+
 }
