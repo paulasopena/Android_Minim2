@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:backgroundTint="@color/pastelGreen"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profilePicture"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_launcher_background" />
+        <TextView
+            android:id="@+id/nameOfUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/profilePicture"
+            android:fontFamily="@font/moon_dance"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/surnameOfUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameOfUser"
+            android:layout_alignLeft="@+id/nameOfUser"
+            android:fontFamily="@font/moon_dance"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/coinsOfUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/surnameOfUser"
+            android:layout_alignLeft="@+id/surnameOfUser"
+            android:text="TextView"
+            android:fontFamily="@font/moon_dance"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/experienceOfUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/coinsOfUser"
+            android:layout_alignLeft="@+id/coinsOfUser"
+            android:text="TextView"
+            android:fontFamily="@font/moon_dance"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <View
+            android:id="@+id/linea"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_toRightOf="@+id/profilePicture"
+            android:background="#ffd5d5d5" />
+        <ImageView
+            android:id="@+id/deleteIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:onClick="deleteGadgetOfUser"
+            android:background="@color/black"
+            android:src="@drawable/trash_icon_asset" />
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
